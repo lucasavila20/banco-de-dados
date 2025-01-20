@@ -169,5 +169,3 @@ CREATE TRIGGER check_producao_br
 BEFORE INSERT OR UPDATE ON producao 
 FOR EACH ROW 
 EXECUTE FUNCTION producao_br(); 
-
-dbDisconnect()
